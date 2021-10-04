@@ -1,0 +1,16 @@
+[
+{
+  "modid": "fracdustry",
+  "name": "Fracdustry",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Tapio"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

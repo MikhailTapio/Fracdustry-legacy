@@ -1,0 +1,18 @@
+item.AluminumIngot.name=Aluminum Ingot
+item.AluminumPlate.name=Aluminum Plate
+item.BronzeIngot.name=Bronze Ingot
+item.BronzePlate.name=Bronze Plate
+item.LithiumIngot.name=Lithium Ingot
+item.SteelIngot.name=Steel Ingot
+item.SteelPlate.name=Steel Plate
+item.TinIngot.name=Tin Ingot
+item.TinPlate.name=Tin Plate
+item.TitaniumIngot.name=Titanium Ingot
+item.TitaniumPlate.name=Titanium Plate
+
+itemGroup.tabMaterials=Fracdustry:Materials
+
+tile.BauxiteOre.name=Bauxite Ore
+tile.CassiteriteOre.name=Cassiterite Ore
+tile.IlmeniteOre.name=Ilmenite Ore
+tile.SpodumeneOre.name=Spodumene Ore
