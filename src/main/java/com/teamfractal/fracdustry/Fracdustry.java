@@ -1,7 +1,8 @@
 package com.teamfractal.fracdustry;
 
-import com.teamfractal.fracdustry.block.init.FDBlockRegistry;
-import com.teamfractal.fracdustry.item.init.FDItemRegistry;
+import com.teamfractal.fracdustry.common.block.init.FDBlockRegistry;
+import com.teamfractal.fracdustry.common.item.init.FDItemRegistry;
+import com.teamfractal.fracdustry.common.recipe.FDRecipeRegistry;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -9,7 +10,6 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 
 @Mod(modid = Fracdustry.MODID,name = Fracdustry.MODNAME, version = Fracdustry.VERSION)
 public class Fracdustry
@@ -25,6 +25,7 @@ public class Fracdustry
     {
         FDItemRegistry.ItemRegistry();
         FDBlockRegistry.BlockRegistry();
+        FDRecipeRegistry.RecipeRegistry();
     }
 
     //Proxy, BlockEntity, Entity, GUI, and Packet registration.

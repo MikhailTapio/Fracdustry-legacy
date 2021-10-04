@@ -1,4 +1,4 @@
-package com.teamfractal.fracdustry.block.init;
+package com.teamfractal.fracdustry.common.block.init;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;

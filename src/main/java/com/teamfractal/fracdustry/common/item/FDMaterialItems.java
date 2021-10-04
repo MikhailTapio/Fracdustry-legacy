@@ -1,4 +1,4 @@
-package com.teamfractal.fracdustry.item;
+package com.teamfractal.fracdustry.common.item;
 
 import com.teamfractal.fracdustry.Fracdustry;
 import net.minecraft.item.Item;

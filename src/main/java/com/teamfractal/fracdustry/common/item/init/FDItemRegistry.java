@@ -1,6 +1,6 @@
-package com.teamfractal.fracdustry.item.init;
+package com.teamfractal.fracdustry.common.item.init;
 
-import com.teamfractal.fracdustry.item.FDMaterialItems;
+import com.teamfractal.fracdustry.common.item.FDMaterialItems;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 
