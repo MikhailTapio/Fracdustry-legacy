@@ -3,6 +3,7 @@ package com.teamfractal.fracdustry;
 import com.teamfractal.fracdustry.common.block.init.FDBlockRegistry;
 import com.teamfractal.fracdustry.common.item.init.FDItemRegistry;
 import com.teamfractal.fracdustry.common.recipe.FDRecipeRegistry;
+import com.teamfractal.fracdustry.common.world.init.FDWorldGenerationRegistry;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -26,6 +27,7 @@ public class Fracdustry
         FDItemRegistry.ItemRegistry();
         FDBlockRegistry.BlockRegistry();
         FDRecipeRegistry.RecipeRegistry();
+        FDWorldGenerationRegistry.GenerationRegistry();
     }
 
     //Proxy, BlockEntity, Entity, GUI, and Packet registration.
