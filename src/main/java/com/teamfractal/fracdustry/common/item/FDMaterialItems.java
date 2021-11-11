@@ -1,10 +1,10 @@
 package com.teamfractal.fracdustry.common.item;
 
-import com.teamfractal.fracdustry.Fracdustry;
+import com.teamfractal.fracdustry.common.creativeTab.init.FDTabRegistry;
 import net.minecraft.item.Item;
 
 public class FDMaterialItems extends Item {
     public FDMaterialItems(){
-        setCreativeTab(Fracdustry.fdmaterials);
+        setCreativeTab(FDTabRegistry.tabMaterial);
     }
 }
